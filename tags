@@ -1,0 +1,303 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AFTER_DECIMAL_POINT	tokenscanner.h	/^        AFTER_DECIMAL_POINT,$/;"	e	enum:TokenScanner::NumberScannerState
+BEFORE_DECIMAL_POINT	tokenscanner.h	/^        BEFORE_DECIMAL_POINT,$/;"	e	enum:TokenScanner::NumberScannerState
+COMPOUND	expression-eval.cpp	/^enum ExpressionType { CONSTANT, IDENTIFIER, COMPOUND };$/;"	e	enum:ExpressionType	file:
+CONSTANT	expression-eval.cpp	/^enum ExpressionType { CONSTANT, IDENTIFIER, COMPOUND };$/;"	e	enum:ExpressionType	file:
+CompoundExpr	main.cpp	/^CompoundExpr::CompoundExpr(char op , Expression *lhs , Expression *rhs) {$/;"	f	class:CompoundExpr
+CompoundExpr	main.cpp	/^class CompoundExpr : public Expression  {$/;"	c	file:
+CompoundExpression	expression-eval.cpp	/^    CompoundExpression(char op, Expression *lhs, Expression *rhs) {$/;"	f	class:CompoundExpression
+CompoundExpression	expression-eval.cpp	/^class CompoundExpression : public Expression {$/;"	c	file:
+CompoundType	main.cpp	/^enum expTypeT { ConstantType, IdentifierType, CompoundType };$/;"	e	enum:expTypeT	file:
+ConstantExpr	main.cpp	/^ConstantExpr::ConstantExpr(int value) {$/;"	f	class:ConstantExpr
+ConstantExpr	main.cpp	/^class ConstantExpr : public Expression {$/;"	c	file:
+ConstantExpression	expression-eval.cpp	/^    ConstantExpression(int value) { this->value = value; }$/;"	f	class:ConstantExpression
+ConstantExpression	expression-eval.cpp	/^class ConstantExpression : public Expression {$/;"	c	file:
+ConstantType	main.cpp	/^enum expTypeT { ConstantType, IdentifierType, CompoundType };$/;"	e	enum:expTypeT	file:
+DEBUG	memo-parser.cpp	/^#define DEBUG /;"	d	file:
+Edge	graph.cpp	/^struct Edge {$/;"	s	file:
+EditorBuffer	buffer-editor.cpp	/^    EditorBuffer() {$/;"	f	class:EditorBuffer
+EditorBuffer	buffer-editor.cpp	/^class EditorBuffer {$/;"	c	file:
+EvalState	main.cpp	/^  EvalState() {}$/;"	f	class:EvalState
+EvalState	main.cpp	/^class EvalState {$/;"	c	file:
+EvaluationContext	expression-eval.cpp	/^    EvaluationContext() {}$/;"	f	class:EvaluationContext
+EvaluationContext	expression-eval.cpp	/^class EvaluationContext {$/;"	c	file:
+ExecuteCommand	buffer-editor.cpp	/^void ExecuteCommand(EditorBuffer &buffer, string line) {$/;"	f
+Expression	expression-eval.cpp	/^Expression::Expression() {}$/;"	f	class:Expression
+Expression	expression-eval.cpp	/^class Expression {$/;"	c	file:
+Expression	main.cpp	/^Expression::Expression() {}$/;"	f	class:Expression
+Expression	main.cpp	/^class Expression {$/;"	c	file:
+ExpressionType	expression-eval.cpp	/^enum ExpressionType { CONSTANT, IDENTIFIER, COMPOUND };$/;"	g	file:
+FINAL_STATE	tokenscanner.h	/^        FINAL_STATE$/;"	e	enum:TokenScanner::NumberScannerState
+FOUND_EXPONENT_SIGN	tokenscanner.h	/^        FOUND_EXPONENT_SIGN,$/;"	e	enum:TokenScanner::NumberScannerState
+IDENTIFIER	expression-eval.cpp	/^enum ExpressionType { CONSTANT, IDENTIFIER, COMPOUND };$/;"	e	enum:ExpressionType	file:
+INITIAL_STATE	tokenscanner.h	/^        INITIAL_STATE,$/;"	e	enum:TokenScanner::NumberScannerState
+IdentifierExpr	main.cpp	/^IdentifierExpr::IdentifierExpr(string name ) {$/;"	f	class:IdentifierExpr
+IdentifierExpr	main.cpp	/^class IdentifierExpr : public Expression {$/;"	c	file:
+IdentifierExpression	expression-eval.cpp	/^    IdentifierExpression(string name) { this->name = name; }$/;"	f	class:IdentifierExpression
+IdentifierExpression	expression-eval.cpp	/^class IdentifierExpression : public Expression {$/;"	c	file:
+IdentifierType	main.cpp	/^enum expTypeT { ConstantType, IdentifierType, CompoundType };$/;"	e	enum:expTypeT	file:
+IsOperator	main.cpp	/^bool IsOperator(string token) {$/;"	f
+Memo	memo-parser.cpp	/^    Memo() : text(""), to(NULL), from(NULL), body(NULL) {}$/;"	f	class:Memo
+Memo	memo-parser.cpp	/^    Memo(Memo *to, Memo *from, Memo *body) {$/;"	f	class:Memo
+Memo	memo-parser.cpp	/^    Memo(string text) {$/;"	f	class:Memo
+Memo	memo-parser.cpp	/^class Memo {$/;"	c	file:
+MemoParser	memo-parser.cpp	/^    MemoParser(string line) {$/;"	f	class:MemoParser
+MemoParser	memo-parser.cpp	/^class MemoParser {$/;"	c	file:
+NUMBER	tokenscanner.h	/^    enum TokenType {SEPARATOR, WORD, NUMBER, STRING, OPERATOR};$/;"	e	enum:TokenScanner::TokenType
+Node	graph.cpp	/^struct Node {$/;"	s	file:
+NumberScannerState	tokenscanner.h	/^    enum NumberScannerState {$/;"	g	class:TokenScanner
+OPERATOR	tokenscanner.h	/^    enum TokenType {SEPARATOR, WORD, NUMBER, STRING, OPERATOR};$/;"	e	enum:TokenScanner::TokenType
+ParseExp	main.cpp	/^Expression *ParseExp(TokenScanner &scanner) {$/;"	f
+ReadE	main.cpp	/^Expression *ReadE(TokenScanner &scanner) {$/;"	f
+ReadT	main.cpp	/^Expression *ReadT(TokenScanner &scanner) {$/;"	f
+SCANNING_EXPONENT	tokenscanner.h	/^        SCANNING_EXPONENT,$/;"	e	enum:TokenScanner::NumberScannerState
+SEPARATOR	tokenscanner.h	/^    enum TokenType {SEPARATOR, WORD, NUMBER, STRING, OPERATOR};$/;"	e	enum:TokenScanner::TokenType
+STARTING_EXPONENT	tokenscanner.h	/^        STARTING_EXPONENT,$/;"	e	enum:TokenScanner::NumberScannerState
+STRING	tokenscanner.h	/^    enum TokenType {SEPARATOR, WORD, NUMBER, STRING, OPERATOR};$/;"	e	enum:TokenScanner::TokenType
+SimpleGraph	graph.cpp	/^struct SimpleGraph {$/;"	s	file:
+StringCell	tokenscanner.h	/^    struct StringCell {$/;"	s	class:TokenScanner
+TokenScanner	tokenscanner.cpp	/^TokenScanner::TokenScanner() {$/;"	f	class:TokenScanner
+TokenScanner	tokenscanner.cpp	/^TokenScanner::TokenScanner(const std::string& str) {$/;"	f	class:TokenScanner
+TokenScanner	tokenscanner.cpp	/^TokenScanner::TokenScanner(std::istream& infile) {$/;"	f	class:TokenScanner
+TokenScanner	tokenscanner.h	/^class TokenScanner {$/;"	c
+TokenType	tokenscanner.h	/^    enum TokenType {SEPARATOR, WORD, NUMBER, STRING, OPERATOR};$/;"	g	class:TokenScanner
+WORD	tokenscanner.h	/^    enum TokenType {SEPARATOR, WORD, NUMBER, STRING, OPERATOR};$/;"	e	enum:TokenScanner::TokenType
+_strlib_h	strlib.h	/^#define _strlib_h$/;"	d
+_tokenscanner_h	tokenscanner.h	/^#define _tokenscanner_h$/;"	d
+addEdge	graph.cpp	/^void addEdge(SimpleGraph &graph, Node *n1, Node *n2 ,double dist ) {$/;"	f
+addNode	graph.cpp	/^void addNode(SimpleGraph &g, string name) {$/;"	f
+addOperator	tokenscanner.cpp	/^void TokenScanner::addOperator(const std::string& op) {$/;"	f	class:TokenScanner
+addWordCharacters	tokenscanner.cpp	/^void TokenScanner::addWordCharacters(const std::string& str) {$/;"	f	class:TokenScanner
+arc	graph.cpp	/^    set<Edge *> arc; \/\/ arc -> edges $/;"	m	struct:SimpleGraph	file:
+arcs	graph.cpp	/^    set<Edge*> arcs;$/;"	m	struct:Node	file:
+array	buffer-editor.cpp	/^    char *array;$/;"	m	class:EditorBuffer	file:
+body	memo-parser.cpp	/^    Memo *to, *from, *body;$/;"	m	class:Memo	file:
+boolToString	strlib.cpp	/^std::string boolToString(bool b) {$/;"	f
+boolToString	strlib.cpp	/^std::string boolToString(int b) {$/;"	f
+buffer	tokenscanner.h	/^    std::string buffer;              \/* The original argument string *\/$/;"	m	class:TokenScanner
+capacity	buffer-editor.cpp	/^    int capacity;$/;"	m	class:EditorBuffer	file:
+charToInteger	strlib.cpp	/^int charToInteger(char c) {$/;"	f
+charToString	strlib.cpp	/^std::string charToString(char c) {$/;"	f
+connectNode	graph.cpp	/^void connectNode(SimpleGraph &graph, string c1, string c2 , double dist) {$/;"	f
+cost	graph.cpp	/^    double cost; \/\/ distance or weight $/;"	m	struct:Edge	file:
+cursor	buffer-editor.cpp	/^    int cursor;$/;"	m	class:EditorBuffer	file:
+deleteChar	buffer-editor.cpp	/^    void deleteChar() {$/;"	f	class:EditorBuffer
+dfs	graph.cpp	/^void dfs(SimpleGraph &graph, string name) {$/;"	f
+dfs_helper	graph.cpp	/^void dfs_helper(SimpleGraph &graph,Node *node , set<Node *> visited) {$/;"	f
+display	buffer-editor.cpp	/^    void display() {$/;"	f	class:EditorBuffer
+display	memo-parser.cpp	/^    void display() { this->memo->displayMemo(); }$/;"	f	class:MemoParser
+displayBuffer	buffer-editor.cpp	/^void displayBuffer(EditorBuffer &buffer) {$/;"	f
+displayMemo	memo-parser.cpp	/^    void displayMemo() {$/;"	f	class:Memo
+doubleToString	strlib.cpp	/^std::string doubleToString(double d) {$/;"	f
+endsWith	strlib.cpp	/^bool endsWith(const std::string& str, char suffix) {$/;"	f
+endsWith	strlib.cpp	/^bool endsWith(const std::string& str, const std::string& suffix) {$/;"	f
+equalsIgnoreCase	strlib.cpp	/^bool equalsIgnoreCase(const std::string& s1, const std::string& s2) {$/;"	f
+eval	expression-eval.cpp	/^    int eval(EvaluationContext &ctx) { return value; }$/;"	f	class:ConstantExpression
+eval	expression-eval.cpp	/^    int eval(EvaluationContext &ctx) {$/;"	f	class:CompoundExpression
+eval	expression-eval.cpp	/^    int eval(EvaluationContext &ctx) {$/;"	f	class:IdentifierExpression
+eval	main.cpp	/^int CompoundExpr::eval(EvalState &state) {$/;"	f	class:CompoundExpr
+eval	main.cpp	/^int ConstantExpr::eval(EvalState &state) {$/;"	f	class:ConstantExpr
+eval	main.cpp	/^int IdentifierExpr::eval(EvalState &state) {$/;"	f	class:IdentifierExpr
+expTypeT	main.cpp	/^enum expTypeT { ConstantType, IdentifierType, CompoundType };$/;"	g	file:
+expandCapacity	buffer-editor.cpp	/^    void expandCapacity() {$/;"	f	class:EditorBuffer
+findText	buffer-editor.cpp	/^    string findText(string line) {$/;"	f	class:EditorBuffer
+finish	graph.cpp	/^    Node *finish;$/;"	m	struct:Edge	file:
+from	memo-parser.cpp	/^    Memo *to, *from, *body;$/;"	m	class:Memo	file:
+getChar	tokenscanner.cpp	/^int TokenScanner::getChar() {$/;"	f	class:TokenScanner
+getConstantValue	expression-eval.cpp	/^    int getConstantValue() { return value; }$/;"	f	class:ConstantExpression
+getConstantValue	expression-eval.cpp	/^int Expression::getConstantValue() {$/;"	f	class:Expression
+getCursor	buffer-editor.cpp	/^    int getCursor() const { return cursor; }$/;"	f	class:EditorBuffer
+getIdentifierName	expression-eval.cpp	/^    string getIdentifierName() { return name; }$/;"	f	class:IdentifierExpression
+getIdentifierName	expression-eval.cpp	/^string Expression::getIdentifierName() {$/;"	f	class:Expression
+getInput	tokenscanner.cpp	/^std::string TokenScanner::getInput() const {$/;"	f	class:TokenScanner
+getLhs	expression-eval.cpp	/^    Expression *getLhs() { return lhs; }$/;"	f	class:CompoundExpression
+getLhs	expression-eval.cpp	/^Expression *Expression::getLhs() { Error("Expression is an abstract class"); }$/;"	f	class:Expression
+getLhs	main.cpp	/^Expression *CompoundExpr::getLhs() {$/;"	f	class:CompoundExpr
+getName	main.cpp	/^string IdentifierExpr::getName() {$/;"	f	class:IdentifierExpr
+getNode	graph.cpp	/^Node *getNode(SimpleGraph &graph, string name) {$/;"	f
+getOp	expression-eval.cpp	/^    char getOp() { return op; }$/;"	f	class:CompoundExpression
+getOp	expression-eval.cpp	/^char Expression::getOp() {$/;"	f	class:Expression
+getOp	main.cpp	/^char CompoundExpr::getOp() {$/;"	f	class:CompoundExpr
+getPosition	tokenscanner.cpp	/^int TokenScanner::getPosition() const {$/;"	f	class:TokenScanner
+getRhs	expression-eval.cpp	/^    Expression *getRhs() { return rhs; }$/;"	f	class:CompoundExpression
+getRhs	expression-eval.cpp	/^Expression *Expression::getRhs() { Error("Expression is an abstract class"); }$/;"	f	class:Expression
+getRhs	main.cpp	/^Expression *CompoundExpr::getRhs() {$/;"	f	class:CompoundExpr
+getStringValue	tokenscanner.cpp	/^std::string TokenScanner::getStringValue(const std::string& token) const {$/;"	f	class:TokenScanner
+getText	buffer-editor.cpp	/^    string getText() const { return string(array, length); }$/;"	f	class:EditorBuffer
+getTokenType	tokenscanner.cpp	/^TokenScanner::TokenType TokenScanner::getTokenType(const std::string& token) const {$/;"	f	class:TokenScanner
+getType	expression-eval.cpp	/^    ExpressionType getType() { return COMPOUND; }$/;"	f	class:CompoundExpression
+getType	expression-eval.cpp	/^    ExpressionType getType() { return CONSTANT; }$/;"	f	class:ConstantExpression
+getType	expression-eval.cpp	/^    ExpressionType getType() { return IDENTIFIER; }$/;"	f	class:IdentifierExpression
+getValue	expression-eval.cpp	/^    int getValue(string key) {$/;"	f	class:EvaluationContext
+getValue	main.cpp	/^  int getValue(string var) { return symbolTable[var]; }$/;"	f	class:EvalState
+getValue	main.cpp	/^int ConstantExpr::getValue() {$/;"	f	class:ConstantExpr
+hasMoreTokens	tokenscanner.cpp	/^bool TokenScanner::hasMoreTokens() {$/;"	f	class:TokenScanner
+htmlDecode	strlib.cpp	/^std::string htmlDecode(const std::string& s) {$/;"	f
+htmlEncode	strlib.cpp	/^std::string htmlEncode(const std::string& s) {$/;"	f
+ignoreComments	tokenscanner.cpp	/^void TokenScanner::ignoreComments() {$/;"	f	class:TokenScanner
+ignoreCommentsFlag	tokenscanner.h	/^    bool ignoreCommentsFlag;         \/* Scanner ignores comments     *\/$/;"	m	class:TokenScanner
+ignoreWhitespace	tokenscanner.cpp	/^void TokenScanner::ignoreWhitespace() {$/;"	f	class:TokenScanner
+ignoreWhitespaceFlag	tokenscanner.h	/^    bool ignoreWhitespaceFlag;       \/* Scanner ignores whitespace   *\/$/;"	m	class:TokenScanner
+initGraph	graph.cpp	/^void initGraph(SimpleGraph &graph) {$/;"	f
+initScanner	tokenscanner.cpp	/^void TokenScanner::initScanner() {$/;"	f	class:TokenScanner
+initSimpleMemo	memo-parser.cpp	/^void initSimpleMemo() {$/;"	f
+insertChar	buffer-editor.cpp	/^    void insertChar(char ch) {$/;"	f	class:EditorBuffer
+integerToChar	strlib.cpp	/^char integerToChar(int n) {$/;"	f
+integerToString	strlib.cpp	/^std::string integerToString(int n, int radix) {$/;"	f
+isDefined	expression-eval.cpp	/^    bool isDefined(string key) {$/;"	f	class:EvaluationContext
+isDefined	main.cpp	/^  bool isDefined(string var) {$/;"	f	class:EvalState
+isOperator	tokenscanner.cpp	/^bool TokenScanner::isOperator(const std::string& op) {$/;"	f	class:TokenScanner
+isOperatorPrefix	tokenscanner.cpp	/^bool TokenScanner::isOperatorPrefix(const std::string& op) {$/;"	f	class:TokenScanner
+isWordCharacter	tokenscanner.cpp	/^bool TokenScanner::isWordCharacter(char ch) const {$/;"	f	class:TokenScanner
+isp	tokenscanner.h	/^    std::istream* isp;               \/* The input stream for tokens  *\/$/;"	m	class:TokenScanner
+length	buffer-editor.cpp	/^    int length;$/;"	m	class:EditorBuffer	file:
+lhs	expression-eval.cpp	/^    Expression *lhs, *rhs;$/;"	m	class:CompoundExpression	file:
+lhs	main.cpp	/^  ConstantExpr *lhs, *rhs;$/;"	m	class:CompoundExpr	file:
+link	tokenscanner.h	/^        StringCell *link;$/;"	m	struct:TokenScanner::StringCell
+longToString	strlib.cpp	/^std::string longToString(long n, int radix) {$/;"	f
+main	buffer-editor.cpp	/^int main() {$/;"	f
+main	expression-eval.cpp	/^int main() {$/;"	f
+main	graph.cpp	/^int main() {$/;"	f
+main	main.cpp	/^int main()$/;"	f
+main	memo-parser.cpp	/^int main() {$/;"	f
+memo	memo-parser.cpp	/^    Memo *memo;$/;"	m	class:MemoParser	file:
+moveCursorBackward	buffer-editor.cpp	/^    void moveCursorBackward() {$/;"	f	class:EditorBuffer
+moveCursorForward	buffer-editor.cpp	/^    void moveCursorForward() {$/;"	f	class:EditorBuffer
+moveCursorToEnd	buffer-editor.cpp	/^    void moveCursorToEnd() { cursor = length; }$/;"	f	class:EditorBuffer
+moveCursorToStart	buffer-editor.cpp	/^    void moveCursorToStart() { cursor = 0; }$/;"	f	class:EditorBuffer
+name	expression-eval.cpp	/^    string name;$/;"	m	class:IdentifierExpression	file:
+name	graph.cpp	/^    string name;$/;"	m	struct:Node	file:
+name	main.cpp	/^  string name;$/;"	m	class:IdentifierExpr	file:
+nextToken	tokenscanner.cpp	/^std::string TokenScanner::nextToken() {$/;"	f	class:TokenScanner
+nodeMap	graph.cpp	/^    map<string, Node*> nodeMap;$/;"	m	struct:SimpleGraph	file:
+nodes	graph.cpp	/^    set<Node *> nodes;$/;"	m	struct:SimpleGraph	file:
+op	expression-eval.cpp	/^    char op;$/;"	m	class:CompoundExpression	file:
+op	main.cpp	/^  char op;$/;"	m	class:CompoundExpr	file:
+operator <<	tokenscanner.cpp	/^std::ostream& operator <<(std::ostream& out, const TokenScanner& scanner) {$/;"	f
+operators	tokenscanner.h	/^    StringCell* operators;           \/* List of multichar operators  *\/$/;"	m	class:TokenScanner
+padLeft	strlib.cpp	/^std::string padLeft(const std::string& s, int length, char fill) {$/;"	f
+padRight	strlib.cpp	/^std::string padRight(const std::string& s, int length, char fill) {$/;"	f
+parse	memo-parser.cpp	/^    void parse() { parseMemo(); }$/;"	f	class:MemoParser
+parseExp	expression-eval.cpp	/^Expression *parseExp(TokenScanner &scanner) {$/;"	f
+parseMemo	memo-parser.cpp	/^    void parseMemo() { readTo(); }$/;"	f	class:MemoParser
+pointerToString	strlib.cpp	/^std::string pointerToString(void* p) {$/;"	f
+precedence	expression-eval.cpp	/^int precedence(string token) {$/;"	f
+printGraph	graph.cpp	/^void printGraph(SimpleGraph &g) {$/;"	f
+readBody	memo-parser.cpp	/^    void readBody() {$/;"	f	class:MemoParser
+readE	expression-eval.cpp	/^Expression *readE(TokenScanner &scanner, int prec) {$/;"	f
+readFrom	memo-parser.cpp	/^    void readFrom() {$/;"	f	class:MemoParser
+readT	expression-eval.cpp	/^Expression *readT(TokenScanner &scanner) {$/;"	f
+readTo	memo-parser.cpp	/^    void readTo() {$/;"	f	class:MemoParser
+realToString	strlib.cpp	/^std::string realToString(double d) {$/;"	f
+rhs	expression-eval.cpp	/^    Expression *lhs, *rhs;$/;"	m	class:CompoundExpression	file:
+rhs	main.cpp	/^  ConstantExpr *lhs, *rhs;$/;"	m	class:CompoundExpr	file:
+saveToken	tokenscanner.cpp	/^void TokenScanner::saveToken(const std::string& token) {$/;"	f	class:TokenScanner
+savedTokens	tokenscanner.h	/^    StringCell* savedTokens;         \/* Stack of saved tokens        *\/$/;"	m	class:TokenScanner
+scanNumber	tokenscanner.cpp	/^std::string TokenScanner::scanNumber() {$/;"	f	class:TokenScanner
+scanNumbers	tokenscanner.cpp	/^void TokenScanner::scanNumbers() {$/;"	f	class:TokenScanner
+scanNumbersFlag	tokenscanner.h	/^    bool scanNumbersFlag;            \/* Scanner parses numbers       *\/$/;"	m	class:TokenScanner
+scanString	tokenscanner.cpp	/^std::string TokenScanner::scanString() {$/;"	f	class:TokenScanner
+scanStrings	tokenscanner.cpp	/^void TokenScanner::scanStrings() {$/;"	f	class:TokenScanner
+scanStringsFlag	tokenscanner.h	/^    bool scanStringsFlag;            \/* Scanner parses strings       *\/$/;"	m	class:TokenScanner
+scanWord	tokenscanner.cpp	/^std::string TokenScanner::scanWord() {$/;"	f	class:TokenScanner
+scanner	memo-parser.cpp	/^    TokenScanner scanner;$/;"	m	class:MemoParser	file:
+setBody	memo-parser.cpp	/^    void setBody(string text) {$/;"	f	class:Memo
+setFrom	memo-parser.cpp	/^    void setFrom(string text) {$/;"	f	class:Memo
+setInput	tokenscanner.cpp	/^void TokenScanner::setInput(const std::string& str) {$/;"	f	class:TokenScanner
+setInput	tokenscanner.cpp	/^void TokenScanner::setInput(std::istream& infile) {$/;"	f	class:TokenScanner
+setText	memo-parser.cpp	/^    void setText(string text) {$/;"	f	class:Memo
+setTo	memo-parser.cpp	/^    void setTo(string text) {$/;"	f	class:Memo
+setValue	expression-eval.cpp	/^    void setValue(string key, int value) { symbolTable[key] = value; }$/;"	f	class:EvaluationContext
+setValue	main.cpp	/^  void setValue(string var, int value) { symbolTable[var] = value; }$/;"	f	class:EvalState
+skipSpaces	tokenscanner.cpp	/^void TokenScanner::skipSpaces() {$/;"	f	class:TokenScanner
+start	graph.cpp	/^    Node *start;$/;"	m	struct:Edge	file:
+startsWith	strlib.cpp	/^bool startsWith(const std::string& str, char prefix) {$/;"	f
+startsWith	strlib.cpp	/^bool startsWith(const std::string& str, const std::string& prefix) {$/;"	f
+std	strlib.cpp	/^namespace std {$/;"	n	file:
+std	strlib.h	/^namespace std {$/;"	n
+stob	strlib.cpp	/^bool stob(const std::string& str) {$/;"	f	namespace:std
+stoc	strlib.cpp	/^char stoc(const std::string& str) {$/;"	f	namespace:std
+str	tokenscanner.h	/^        std::string str;$/;"	m	struct:TokenScanner::StringCell
+stringContains	strlib.cpp	/^bool stringContains(const std::string& s, char ch) {$/;"	f
+stringContains	strlib.cpp	/^bool stringContains(const std::string& s, const std::string& substring) {$/;"	f
+stringIndexOf	strlib.cpp	/^int stringIndexOf(const std::string& s, char ch, int startIndex) {$/;"	f
+stringIndexOf	strlib.cpp	/^int stringIndexOf(const std::string& s, const std::string& substring, int startIndex) {$/;"	f
+stringInputFlag	tokenscanner.h	/^    bool stringInputFlag;            \/* Flag indicating string input *\/$/;"	m	class:TokenScanner
+stringIsBool	strlib.cpp	/^bool stringIsBool(const std::string& str) {$/;"	f
+stringIsDouble	strlib.cpp	/^bool stringIsDouble(const std::string& str) {$/;"	f
+stringIsInteger	strlib.cpp	/^bool stringIsInteger(const std::string& str, int radix) {$/;"	f
+stringIsLong	strlib.cpp	/^bool stringIsLong(const std::string& str, int radix) {$/;"	f
+stringIsReal	strlib.cpp	/^bool stringIsReal(const std::string& str) {$/;"	f
+stringJoin	strlib.cpp	/^std::string stringJoin(const Vector<std::string>& v, char delimiter) {$/;"	f
+stringJoin	strlib.cpp	/^std::string stringJoin(const Vector<std::string>& v, const std::string& delimiter) {$/;"	f
+stringLastIndexOf	strlib.cpp	/^int stringLastIndexOf(const std::string& s, char ch, int startIndex) {$/;"	f
+stringLastIndexOf	strlib.cpp	/^int stringLastIndexOf(const std::string& s, const std::string& substring, int startIndex) {$/;"	f
+stringReplace	strlib.cpp	/^std::string stringReplace(const std::string& str, char old, char replacement, int limit) {$/;"	f
+stringReplace	strlib.cpp	/^std::string stringReplace(const std::string& str, const std::string& old, const std::string& replacement, int limit) {$/;"	f
+stringReplaceInPlace	strlib.cpp	/^int stringReplaceInPlace(std::string& str, char old, char replacement, int limit) {$/;"	f
+stringReplaceInPlace	strlib.cpp	/^int stringReplaceInPlace(std::string& str, const std::string& old, const std::string& replacement, int limit) {$/;"	f
+stringSplit	strlib.cpp	/^Vector<std::string> stringSplit(const std::string& str, char delimiter, int limit) {$/;"	f
+stringSplit	strlib.cpp	/^Vector<std::string> stringSplit(const std::string& str, const std::string& delimiter, int limit) {$/;"	f
+stringToBool	strlib.cpp	/^bool stringToBool(const std::string& str) {$/;"	f
+stringToChar	strlib.cpp	/^char stringToChar(const std::string& str) {$/;"	f
+stringToDouble	strlib.cpp	/^double stringToDouble(const std::string& str) {$/;"	f
+stringToInteger	strlib.cpp	/^int stringToInteger(const std::string& str, int radix) {$/;"	f
+stringToLong	strlib.cpp	/^long stringToLong(const std::string& str, int radix) {$/;"	f
+stringToReal	strlib.cpp	/^double stringToReal(const std::string& str) {$/;"	f
+symbolTable	expression-eval.cpp	/^        symbolTable; \/\/ store identifer name , constant value  (As Map)$/;"	m	class:EvaluationContext	file:
+symbolTable	main.cpp	/^  map<string, int> symbolTable;$/;"	m	class:EvalState	file:
+text	memo-parser.cpp	/^    string text;$/;"	m	class:Memo	file:
+to	memo-parser.cpp	/^    Memo *to, *from, *body;$/;"	m	class:Memo	file:
+toLowerCase	strlib.cpp	/^char toLowerCase(char ch) {$/;"	f
+toLowerCase	strlib.cpp	/^std::string toLowerCase(const std::string& str) {$/;"	f
+toLowerCaseInPlace	strlib.cpp	/^void toLowerCaseInPlace(std::string& str) {$/;"	f
+toString	expression-eval.cpp	/^    string toString() { return " " + op; }$/;"	f	class:CompoundExpression
+toString	expression-eval.cpp	/^    string toString() { return name; }$/;"	f	class:IdentifierExpression
+toString	expression-eval.cpp	/^    string toString() { return to_string(value); }$/;"	f	class:ConstantExpression
+toString	main.cpp	/^string CompoundExpr::toString() {$/;"	f	class:CompoundExpr
+toString	main.cpp	/^string ConstantExpr::toString() {$/;"	f	class:ConstantExpr
+toString	main.cpp	/^string IdentifierExpr::toString() {$/;"	f	class:IdentifierExpr
+toString	memo-parser.cpp	/^    string toString() { return text; }$/;"	f	class:Memo
+toUpperCase	strlib.cpp	/^char toUpperCase(char ch) {$/;"	f
+toUpperCase	strlib.cpp	/^std::string toUpperCase(const std::string& str) {$/;"	f
+toUpperCaseInPlace	strlib.cpp	/^void toUpperCaseInPlace(std::string& str) {$/;"	f
+to_string	strlib.cpp	/^std::string to_string(bool b) {$/;"	f	namespace:std
+to_string	strlib.cpp	/^std::string to_string(char c) {$/;"	f	namespace:std
+to_string	strlib.cpp	/^std::string to_string(void* p) {$/;"	f	namespace:std
+to_string	strlib.h	/^std::string to_string(const T& value) {$/;"	f	namespace:std
+trim	strlib.cpp	/^std::string trim(const std::string& str) {$/;"	f
+trimEnd	strlib.cpp	/^std::string trimEnd(const std::string& str) {$/;"	f
+trimEndInPlace	strlib.cpp	/^void trimEndInPlace(std::string& str) {$/;"	f
+trimInPlace	strlib.cpp	/^void trimInPlace(std::string& str) {$/;"	f
+trimStart	strlib.cpp	/^std::string trimStart(const std::string& str) {$/;"	f
+trimStartInPlace	strlib.cpp	/^void trimStartInPlace(std::string& str) {$/;"	f
+type	main.cpp	/^expTypeT CompoundExpr::type() {$/;"	f	class:CompoundExpr
+type	main.cpp	/^expTypeT ConstantExpr::type() {$/;"	f	class:ConstantExpr
+type	main.cpp	/^expTypeT IdentifierExpr::type() {$/;"	f	class:IdentifierExpr
+ungetChar	tokenscanner.cpp	/^void TokenScanner::ungetChar(int) {$/;"	f	class:TokenScanner
+urlDecode	strlib.cpp	/^std::string urlDecode(const std::string& str) {$/;"	f
+urlDecodeInPlace	strlib.cpp	/^void urlDecodeInPlace(std::string& str) {$/;"	f
+urlEncode	strlib.cpp	/^std::string urlEncode(const std::string& str) {$/;"	f
+urlEncodeInPlace	strlib.cpp	/^void urlEncodeInPlace(std::string& str) {$/;"	f
+usage	memo-parser.cpp	/^void usage() {}$/;"	f
+value	expression-eval.cpp	/^    int value;$/;"	m	class:ConstantExpression	file:
+value	main.cpp	/^  int value;$/;"	m	class:ConstantExpr	file:
+verifyToken	tokenscanner.cpp	/^void TokenScanner::verifyToken(const std::string& expected) {$/;"	f	class:TokenScanner
+visit	graph.cpp	/^void visit(Node *node) {$/;"	f
+wordChars	tokenscanner.h	/^    std::string wordChars;           \/* Additional word characters   *\/$/;"	m	class:TokenScanner
+~CompoundExpr	main.cpp	/^CompoundExpr::~CompoundExpr() {$/;"	f	class:CompoundExpr
+~CompoundExpression	expression-eval.cpp	/^    ~CompoundExpression() {$/;"	f	class:CompoundExpression
+~ConstantExpression	expression-eval.cpp	/^    ~ConstantExpression() {}$/;"	f	class:ConstantExpression
+~EditorBuffer	buffer-editor.cpp	/^    ~EditorBuffer() { delete[] array; }$/;"	f	class:EditorBuffer
+~EvalState	main.cpp	/^  ~EvalState() {}$/;"	f	class:EvalState
+~EvaluationContext	expression-eval.cpp	/^    ~EvaluationContext() {}$/;"	f	class:EvaluationContext
+~Expression	expression-eval.cpp	/^Expression::~Expression() {}$/;"	f	class:Expression
+~Expression	main.cpp	/^Expression::~Expression() {}$/;"	f	class:Expression
+~Memo	memo-parser.cpp	/^    ~Memo() {$/;"	f	class:Memo
+~MemoParser	memo-parser.cpp	/^    ~MemoParser() {}$/;"	f	class:MemoParser
+~TokenScanner	tokenscanner.cpp	/^TokenScanner::~TokenScanner() {$/;"	f	class:TokenScanner
