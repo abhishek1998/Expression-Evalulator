@@ -252,7 +252,7 @@ int main() {
     TokenScanner scanner;
     Expression *exp;
     scanner.ignoreWhitespace();
-    scanner.scanString();
+    scanner.scanStrings();
 
     while (true) {
         exp = NULL;
